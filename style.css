@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.firstSection {
+  background: #0c2b4b;
+}
+
+.logoSection {
+  text-align: right;
+  clip-path: polygon(0% 0%, 100% 0%, 94% 100%, 0% 100%);
+}
+
+.menuSection ul {
+  margin-top: 15px;
+}
+.menuSection ul li {
+  display: inline-block;
+  padding: 10px 12px;
+}
+.menuSection ul li a {
+  padding: 10px 0px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.menuSection ul li a:hover {
+  border-bottom: 2px solid yellow;
+}
+
+.iconMenu ul {
+  margin-top: 20px;
+}
+.iconMenu ul li:first-child {
+  margin-right: -20px;
+}
+.iconMenu ul li {
+  display: inline-block;
+  padding: 10px 12px;
+}
+
+.iconMenu ul li a {
+  color: white;
+  font-size: 18px;
+}
+
+.headerButton {
+  margin-top: 15px;
+}
+.headerButton a {
+  text-decoration: none;
+  padding: 12px 23px;
+  border-radius: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.secondSection {
+  background-image: url(images/hero-bg.jpg);
+  padding-top: 292px;
+  padding-bottom: 375px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.secondSectionContent h3 {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.secondSectionContent h2 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+
+.secondSectionButton {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.secondSectionButton a {
+  padding: 10px 15px;
+  border-radius: 0;
+  margin: 2%;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.secondButton {
+  background: #0c2b4b;
+  color: white;
+  border-radius: 0;
+}
+
+.contentSection {
+  margin-top: 155px;
+}
+.contentSection h2,
+.videoSectionContent h2 {
+  font-size: 36px;
+  color: #0c2b4b;
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 16px;
+}
+.contentSection p {
+  text-align: justify;
+}
+.box1 {
+  background: #0c2b4b;
+  padding: 45px;
+  margin-top: 32px;
+}
+.box1 img {
+  padding: 20px;
+}
+.box1 h2 {
+  color: white;
+  font-size: 18px;
+}
+.secondItem {
+  margin-top: 115px;
+}
+
+.why {
+  color: orange;
+  font-weight: bold;
+}
+
+.formTextSection {
+  text-align: center;
+}
+
+.formTextSection h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+.formTextSection p {
+  font-size: 12px;
+  font-weight: bold;
+  color: orange;
+  margin-bottom: -6px;
+}
+
+.form input[type="text"],
+[type="date"],
+[type="number"],
+[type="email"],
+select {
+  width: 30%;
+  margin: 2% 1%;
+  padding: 1%;
+}
+
+input[type="submit"] {
+  width: 18%;
+  text-align: center;
+  margin-left: 600px;
+  margin-top: 27px;
+  padding: 9px;
+  background-color: #0c2b4b;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+
+.fifthSection {
+  background: #f5f5f5;
+  padding-top: 250px;
+  padding-bottom: 30px;
+  position: absolute;
+  z-index: -1;
+}
+
+.sixthSection {
+  margin-top: 624px;
+  background: #0c2b4b;
+  width: 100%;
+  margin-top: 666px;
+}
+
+.sixthSectionText {
+  text-align: center;
+}
+
+.sixthSectionImg {
+  padding-top: 100px;
+  background: url(images/pricing-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.sixthSectionText p {
+  color: orange;
+  font-size: 15px;
+  font-weight: bold;
+}
+.sixthSectionText h2 {
+  font-size: 40px;
+  font-style: italic;
+  color: white;
+}
+.pricingBox {
+  background: #0b2b4b85;
+  padding: 40px 25px;
+  margin: 4%;
+  height: 548px;
+}
+
+.pricingBox h2 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #f3bd00;
+  text-align: center;
+}
+.pricingBox h3 {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 55px;
+  border-bottom: 1px solid white;
+}
+.pricingBox h4 {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pricingBox ul {
+  text-align: center;
+  display: contents;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.pricingBox ul li {
+  display: block;
+  padding: 5px 0px;
+}
+.pricingBox ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 7px 10px;
+  /* background:  #0C2B4B; */
+  width: 100%;
+}
+
+.pricingBox:hover {
+  background: #0c2b4b;
+}
+
+.pricingBox:hover .boxButton {
+  background: #f5bd00;
+}
+
+.boxButton {
+  background: #0c2b4b;
+  font-weight: bold;
+  padding: 15px 80px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  margin-top: 20px;
+  color: white;
+}
+
+.seventhSectionText p {
+  color: orange;
+  margin: 0;
+  font-weight: bold;
+}
+
+.designation {
+  color: orange;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.seventhSectionText h2 {
+  font-size: 55px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.instructors {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 76px 45px;
+  margin: 2%;
+}
+.singleInstructor {
+  width: 47%;
+  border: 1px solid grey;
+  margin: 1%;
+  padding: 10px 16px;
+  display: flex;
+}
+
+.team1 {
+  margin-top: -35px;
+}
+
+.team {
+  margin-top: -105px;
+}
+
+.instructorImg {
+  margin-right: 30px;
+}
+/* .instructorImg img{
+    width: 190px;
+    height: 150px;
+} */
+
+.instructorContent {
+}
+
+.instructorIcon ul {
+}
+.instructorIcon ul li {
+  display: inline-block;
+  padding: 10px 12px;
+}
+.instructorIcon ul li a {
+  color: black;
+  font-size: 18px;
+}
+
+.footer-section {
+  background: #0c2b4b;
+}
+
+.footer-company h5 {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.footer-company ul {
+  padding-left: 0;
+}
+
+.footer-company ul li {
+  display: block;
+  list-style-type: none;
+  line-height: 36px;
+}
+
+.footer-company ul li a {
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color: rgb(179, 176, 176);
+  margin-right: 20px;
+}
+
+.footer-logo img {
+  margin-bottom: 24px;
+}
+
+.footer-logo p {
+  color: rgb(179, 176, 176);
+}
+
+.footer-logo ul {
+  display: block;
+  padding-left: 0;
+}
+.footer-logo ul li {
+  list-style: none;
+  display: block;
+  color: rgb(179, 176, 176);
+  line-height: 36px;
+}
+
+hr {
+  color: rgb(170, 170, 170);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.copyright {
+  color: rgb(194, 192, 192);
+}
+
+.copyright a {
+  color: lawngreen;
+}
+
+.copyright a:hover {
+  color: goldenrod;
+  background: transparent;
+}
+
+.fa-heart {
+  color: red;
+}
